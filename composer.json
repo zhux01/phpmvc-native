@@ -1,0 +1,24 @@
+{
+    "name": "zhux/phpmvc",
+    "description": "MVC Kombinasi dari WPU dan PZN",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Saepul Bahri"
+        }
+    ],
+    "require": {
+        "php" : ">=8",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhux\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhux\\" : "test"
+        }
+    }
+}
